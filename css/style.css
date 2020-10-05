@@ -1,0 +1,142 @@
+* {
+ box-sizing: border-box;
+ }
+ body {
+ margin: 0;
+ background-color: #141414; 
+ }
+ i {
+ 	margin-top: 18px;
+ }
+ .barra{
+ 	width: 100%;
+ 	display: flex;
+ 	position: relative;
+ 	opacity: 50%;
+ 	justify-content: space-around;
+ }
+ .mitad, .mitad2{
+ 	width: 50%;
+ 	font-size: 18px;
+ 	color: white;
+ 	text-decoration: none;
+ 	cursor: pointer;
+ }
+ .mitad2{
+ 	width: 50%;
+ 	text-align: end;
+ }
+ .opcion-menu, .titulo{
+ 	padding-right: 15px;
+ }
+ .titulo{
+ 	color: white;
+ 	padding-left: 15px;
+ 	font-size: 34px;
+ }
+ .video-container {
+ position: relative;
+ width: 100%;
+ height: 100vh;
+ background-color: white;
+ z-index: -1;
+ }
+ .video {
+ bottom: 0;
+ right: 0;
+ position: absolute;
+ min-width: 100%;
+ min-height: 100%;
+ }
+ .video-description {
+ color: white;
+ position: absolute;
+ left: 10px;
+ bottom: 50%;
+ width: 30%;
+ padding: 30px 20px 30px;
+ text-shadow: -2px 2px 2px #000000;
+ }
+ .video-description  h1{
+ font-size: 39px;
+ }
+ .content-series, .content-series2{
+ display: flex;
+ justify-content: space-around;
+ margin-top:-330px;
+ }
+ .content-series2{
+  margin-top: 60px;
+ }
+ .series {
+ width: 250px;
+ height: 170px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: white;
+ }
+ .series:nth-child(odd) {
+ background-color: red;
+ }
+ .series:nth-child(even) {
+ background-color: blue;
+ }
+.btn, .btn2{
+	position: absolute;
+	display: flex;
+	background-color: #4d1742;
+    color: white;
+    height: 30px;
+    width: 130px;
+    border-radius: 3px;
+    margin-top: 25px;
+   	justify-content: center;
+    align-items: center;
+}
+.btn .fas, .btn2 .fas{
+	padding-right: 10px;
+	margin-top: 0;
+}
+.btn2{
+    right: 200px;
+    width: 180px;
+    background-color: #4d174295
+}
+.series img{
+	width: 100%;
+	height: 100%
+}
+
+.favoritos{
+ 	margin-top: -380px;
+ 	margin-left: 30px;
+ 	color: white;
+ 	position: absolute;
+}
+.favoritos2{
+ 	margin-top: 13px;
+ 	margin-left: 30px;
+ 	color: white;
+ 	position: absolute;
+}
+/*#video{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	min-height: 100%;
+	min-width: 100%;
+}
+.caja{
+	background-color: red;
+	min-width: 50px;
+	min-height: 50px;
+	position: fixed;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: white;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}*/
